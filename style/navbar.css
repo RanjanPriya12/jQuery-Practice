@@ -1,0 +1,43 @@
+.navContainer{
+    height: 50px;
+    background-color: blueviolet;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.logo{
+    width: 20%;
+}
+.inputBox{
+    width: 30%;
+}
+.inputBox li input{
+    padding: 5px;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    font-size: 14px;
+}
+.loginSection{
+    display: flex;
+    width: 8%;
+    justify-content: space-between;
+}
