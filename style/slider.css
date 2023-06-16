@@ -2,6 +2,8 @@
   width: 100%;
   margin: 50px auto;
   position: relative;
+  margin-bottom: 50px;
+  height: 100vh;
 }
 #slider > li {
   width: 100%;
