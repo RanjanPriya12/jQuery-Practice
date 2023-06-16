@@ -1,5 +1,5 @@
 # jQuery-Practice
-Mini project to learn basics concepts of jQuery and Ajax concepts.
+Mini project to learn basic concepts of jQuery and Ajax concepts.
  * JQuery is an external library of Javascript, with less code and more functionality.
- * Using Jquery we can add animation in our projects.
+ * Using Jquery we can add animation to our projects.
 
