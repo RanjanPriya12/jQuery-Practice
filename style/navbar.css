@@ -21,6 +21,10 @@
 .navbar ul li{
     list-style: none;
 }
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
 .logo{
     width: 20%;
 }
