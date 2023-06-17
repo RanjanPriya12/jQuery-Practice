@@ -6,6 +6,7 @@
     <title>Hunger</title>
     <link rel="stylesheet" href="../style/navbar.css" />
     <link rel="stylesheet" href="../style/global.css" />
+    <link rel="stylesheet" href="../style/login-reg.css" />
   </head>
   <body>
     <header class="navContainer">
@@ -13,15 +14,15 @@
         <ul class="logo">
           <li><a href="../index.html">Logo</a></li>
         </ul>
-        <ul class="loginSection">
+        <!-- <ul class="loginSection">
           <li><a href="./cart.html">Cart</a></li>
           <li><a href="./login.html">Login</a></li>
-        </ul>
+        </ul> -->
       </nav>
     </header>
     <main class="loginContainer">
       <div class="deliveryImage">
-        <img src="" alt="delivery" />
+        <img src="../images/food-delivery.jpg" alt="delivery" />
       </div>
       <div class="formBox">
         <form class="loginForm">
@@ -39,11 +40,15 @@
           </div>
           <div class="loginField">
             <label>Select your gender</label>
-            <div>
-              <input type="radio" id="male" name="gender" value="Male" />
-              <label for="male">Male</label>
-              <input type="radio" id="female" name="gender" value="Female" />
-              <label for="female">Female</label>
+            <div class="genderBox">
+              <div class="myGender">
+                <input type="radio" id="male" name="gender" value="Male" />
+                <label for="male">Male</label>
+              </div>
+              <div class="myGender">
+                <input type="radio" id="female" name="gender" value="Female" />
+                <label for="female">Female</label>
+              </div>
             </div>
             <input type="email" placeholder="Your user id..." required />
           </div>

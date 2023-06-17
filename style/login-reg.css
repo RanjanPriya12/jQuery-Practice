@@ -1,0 +1,60 @@
+.loginContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+}
+.deliveryImage{
+    width: 50%;
+    padding: 10px;
+}
+.deliveryImage img{
+    width: 100%;
+    object-fit: cover;
+}
+.formBox{
+    width: 50%;
+}
+.formBox .loginForm{
+    width: 100%;
+    padding: 10px;
+}
+.formBox .loginForm .loginField{
+    width: 70%;
+    margin: 5px;
+}
+.formBox .loginForm .loginField .genderBox{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+}
+.formBox .loginForm .loginField .genderBox .myGender{
+    display: flex;
+}
+.formBox .loginForm .loginField label, .formBox .loginForm .loginField input{
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.formBox .loginForm .loginField input{
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+}
+.formBox .loginForm .loginField input[type="button"]{
+    background-color: blueviolet;
+    cursor: pointer;
+    color: white;
+}
+.formBox .loginForm .loginField input[type="button"]:hover{
+    background-color: rgb(150, 74, 222);
+}
+.formBox .loginForm .loginField p{
+    font-size: 18px;
+}
