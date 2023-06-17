@@ -1,0 +1,54 @@
+.cartConatainer {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.cartConatainer .itemsSection {
+  width: 70%;
+}
+table {
+  border: 2px solid blueviolet;
+  border-collapse: collapse;
+}
+th,
+tr,
+td {
+  border: 2px solid blueviolet;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+#itemCard tr td div img {
+  width: 80%;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 20%;
+}
+th {
+  font-size: 18px;
+  background-color: blueviolet;
+  color: white;
+}
+#removeButton {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 2px;
+  width: 80px;
+  font-size: 16px;
+  border-radius: 2px;
+}
+#deleteQuantity,
+#addQuantity {
+  font-size: 12px;
+  padding: 5px;
+  margin: 2px;
+  background-color: blueviolet;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
