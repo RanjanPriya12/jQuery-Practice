@@ -12,6 +12,9 @@
   padding: 20px;
   align-items: center;
 }
+#cartCount{
+  margin-left: 5px;
+}
 .productContainer .foodCart {
   width: 100%;
   height: 350px;

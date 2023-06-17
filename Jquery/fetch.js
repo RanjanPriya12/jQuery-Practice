@@ -16,6 +16,7 @@ $(document).ready(function () {
                    <div><b>Price 250.50 Rs</p></div>
                    <div id="addButton"><button>Buy</button></div>
                    <div id="productTitle">${item.title}</div>
+              </div>
               </div>`;
         $(".productContainer").append(food);
       });
@@ -28,7 +29,11 @@ $(document).ready(function () {
   $("body").on("click", "#addButton", function () {
     const id = $(this).parents(".foodCart").attr("id");
     const productDesc = $(this).siblings("#productTitle").text();
-    cartItems = [...cartItems, { id: id, title: productDesc, price: 250.5 }];
+    const imageUrl = $(this).parent().siblings(".imageBox").children().attr("src");
+    cartItems = [...cartItems, { id: id, title: productDesc, price: 250.50,image:imageUrl }];
     localStorage.setItem('cartItems',JSON.stringify(cartItems));
+    alert("Your meal is added to the cart");
+   const cartProducts = JSON.parse(localStorage.getItem('cartItems'));
+   $("#cartCount").text(cartProducts.length)
   });
 });
