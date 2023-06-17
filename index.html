@@ -13,7 +13,7 @@
     <header class="navContainer">
         <nav class="navbar">
             <ul class="logo">
-                <li><a href="./index.html">Logo</a></li>
+                <li><a href="./index.html">Hunger</a></li>
             </ul>
             <ul class="inputBox">
                 <li>
@@ -58,7 +58,9 @@
    <script>
     let cartItems = JSON.parse(localStorage.getItem('cartItems'));
     let span = document.getElementById("cartCount");
-    span.innerText= cartItems.length;
+    if(cartItems && cartItems.length>0){
+        span.innerText= cartItems.length
+    }
    </script>
 </body>
 </html>
