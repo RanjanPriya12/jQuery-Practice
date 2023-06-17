@@ -6,12 +6,13 @@
     <title>Hunger</title>
     <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/slider.css">
 </head>
 <body>
     <header class="navContainer">
         <nav class="navbar">
             <ul class="logo">
-                <li>Logo</li>
+                <li><a href="./index.html">Logo</a></li>
             </ul>
             <ul class="inputBox">
                 <li>
@@ -19,35 +20,39 @@
                 </li>
             </ul>
             <ul class="loginSection">
-                <li>Cart</li>
-                <li>Login</li>
+                <li><a href="./pages/cart.html">Cart</a></li>
+                <li><a href="./pages/login.html">Login</a></li>
             </ul>
         </nav>   
     </header>
-    <main>
-        <ul class="slider">
+        <ul id="slider">
             <li>
-                <img src="" alt="">
-                <div></div>
+                <img src="./images/photo-2.jpg" alt="image">
+                <div class="centered">Your belly knows best.</div>
             </li>
             <li>
-                <img src="" alt="">
-                <div></div>
+                <img src="./images/photo-3.jpg" alt="image">
+                <div class="centered">Burgers! Because no great story started with salad.</div>
             </li>
             <li>
-                <img src="" alt="">
-                <div></div>
+                <img src="./images/photo-4.jpeg" alt="image">
+                <div class="centered">A taste you’ll remember.</div>
             </li>
             <li>
-                <img src="" alt="">
-                <div></div>
+                <img src="./images/food-1.jpg" alt="image">
+                <div class="centered">For the love of delicious food.</div>
             </li>
             <li>
-                <img src="" alt="">
-                <div></div>
+                <img src="./images/photo-5.jpg" alt="image">
+                <div class="centered">We’re hot and spicy… literally!</div>
             </li>
-        </li>
-    </main>
+        </ul>
+        <main class="productContainer">
+
+        </main>
+  
    <script src="./Jquery/jQuery.3.7.js"></script> 
+   <script src="./Jquery/slider.js"></script>
+   <script src="./Jquery/fetch.js"></script>
 </body>
 </html>

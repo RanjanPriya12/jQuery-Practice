@@ -6,6 +6,7 @@
     position: fixed;
     display: flex;
     align-items: center;
+    z-index: 1;  
 }
 .navbar{
     display: flex;
@@ -19,6 +20,10 @@
 }
 .navbar ul li{
     list-style: none;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
 }
 .logo{
     width: 20%;
