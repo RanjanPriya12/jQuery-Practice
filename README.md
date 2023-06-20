@@ -4,4 +4,4 @@ Mini project to learn basic concepts of jQuery and Ajax concepts.
  * Using Jquery we can add animation to our projects.
 
 # jQuery API
-
+## .add() :
