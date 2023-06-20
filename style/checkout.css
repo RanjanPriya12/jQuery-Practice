@@ -1,6 +1,80 @@
-.orderDetail div:nth-child(2){
-    color: rgb(120, 36, 199);
-  }
-  .orderDetail div:nth-child(2) div{
-    background-color: rgb(120, 36, 199);
-  }
+.orderDetail div:nth-child(2) {
+  color: rgb(120, 36, 199);
+}
+.orderDetail div:nth-child(2) div {
+  background-color: rgb(120, 36, 199);
+}
+.shippingContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#infoForm{
+    width: 70%;
+}
+#infoForm .formContainer{
+    width: 100%;
+    padding: 10px;
+}
+#infoForm .formContainer .inputSection{
+    width: 70%;
+}
+#infoForm .formContainer .inputSection label,
+#infoForm .formContainer .inputSection select, 
+#infoForm .formContainer .inputSection input{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#infoForm .formContainer .cityInputSection, 
+#infoForm .formContainer .nameInputSection{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#infoForm .formContainer .cityInputSection label, 
+#infoForm .formContainer .cityInputSection input,
+#infoForm .formContainer .nameInputSection label,
+#infoForm .formContainer .nameInputSection input{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#infoForm .formContainer .inputSection input,
+#infoForm .formContainer .inputSection select,
+#infoForm .formContainer .cityInputSection input,
+#infoForm .formContainer .nameInputSection input{
+    font-size: 14px;
+    border: 2px solid blueviolet;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+#infoForm .inputCheckbox{
+    display: flex;
+    margin-top: 5px;
+    gap: 2px;
+}
+.continueButton{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.continueButton button{
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    text-transform: uppercase;
+}
