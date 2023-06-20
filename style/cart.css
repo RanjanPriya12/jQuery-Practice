@@ -85,11 +85,9 @@ th {
   cursor: pointer;
   border: none;
   padding: 5px;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 5px;
   text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 0.5px;
 }
 .orderSummary button:hover{
   background-color: rgb(150, 74, 222);
