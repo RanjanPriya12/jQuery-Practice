@@ -25,4 +25,7 @@ $(document).ready(function () {
     $("#itemCard").append(cartItem);
     console.log(cartItems)
   });
+  $(".orderSummary button").on('click',function(){
+    location.href="checkout.html";
+  })
 });
