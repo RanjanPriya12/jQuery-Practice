@@ -23,5 +23,6 @@ $(document).ready(function () {
     <td><button id="removeButton">remove</button></td>
 </tr>`;
     $("#itemCard").append(cartItem);
+    console.log(cartItems)
   });
 });

@@ -36,4 +36,6 @@ $(document).ready(function () {
    const cartProducts = JSON.parse(localStorage.getItem('cartItems'));
    $("#cartCount").text(cartProducts.length)
   });
+  const cartProducts = JSON.parse(localStorage.getItem('cartItems'));
+   $("#cartCount").text(cartProducts.length)
 });
