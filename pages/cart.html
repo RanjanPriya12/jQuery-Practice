@@ -26,12 +26,6 @@
         <div class="priceSection"></div>
       </main>
     <script src="../Jquery/cart.js"></script>
-    <script>
-      let cartItems = JSON.parse(localStorage.getItem("cartItems"));
-      let span = document.getElementById("cartCount");
-      if (cartItems && cartItems.length > 0) {
-        span.innerText = cartItems.length;
-      }
-    </script>
+    <script src="../Jquery/fetch.js"></script>
   </body>
 </html>
