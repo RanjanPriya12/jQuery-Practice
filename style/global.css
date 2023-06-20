@@ -42,3 +42,27 @@
   font-size: 16px;
   cursor: pointer;
 }
+.orderDetail{
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 150px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: grey;
+}
+.orderDetail div{
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+.orderDetail div div{
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
