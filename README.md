@@ -29,3 +29,5 @@ Mini project to learn basic concepts of jQuery and Ajax concepts.
 * Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.
 ## .children()
 * Get the children of each element in the set of matched elements, optionally filtered by a selector.
+## .closest()
+* For each element in the set, get the first element that matches the selector by testing the element itself and traversing up through its ancestors in the DOM tree.
