@@ -6,6 +6,6 @@ Mini project to learn basic concepts of jQuery and Ajax concepts.
 # jQuery API
 ## .add() 
 * Create a new jQuery object with elements added to the set of matched elements.
-
 ## .addClass()
 * Adds the specified class(es) to each element in the set of matched elements.
+## .after()
