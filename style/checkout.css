@@ -1,0 +1,6 @@
+.orderDetail div:nth-child(2){
+    color: rgb(120, 36, 199);
+  }
+  .orderDetail div:nth-child(2) div{
+    background-color: rgb(120, 36, 199);
+  }

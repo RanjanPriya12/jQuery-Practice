@@ -1,9 +1,9 @@
 .cartConatainer {
-  width: 95%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 .cartConatainer .itemsSection {
   width: 70%;
@@ -41,6 +41,9 @@ th {
   font-size: 16px;
   border-radius: 2px;
 }
+#removeButton:hover{
+  background-color: rgb(150, 74, 222);
+}
 #deleteQuantity,
 #addQuantity {
   font-size: 12px;
@@ -51,4 +54,49 @@ th {
   border: none;
   color: white;
   border-radius: 5px;
+}
+
+.priceSection{
+  margin-top: 150px;
+  position: fixed;
+  width: 20%;
+  left: 75%;
+  padding: 5px;
+  font-size: 16px;
+}
+.orderSummary{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.priceSection div{
+  margin: 5px;
+}
+.priceSection div h3{
+  font-size: 22px;
+  font-weight: bolder;
+  letter-spacing: 0.5px;
+  color: blueviolet;
+}
+.orderSummary button{
+  width: 100%;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.orderSummary button:hover{
+  background-color: rgb(150, 74, 222);
+}
+.orderDetail div:first-child{
+  color: rgb(120, 36, 199);
+}
+.orderDetail div:first-child div{
+  background-color: rgb(120, 36, 199);
 }

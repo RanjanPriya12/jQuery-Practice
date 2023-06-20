@@ -30,7 +30,7 @@ $(document).ready(function () {
     const id = $(this).parents(".foodCart").attr("id");
     const productDesc = $(this).siblings("#productTitle").text();
     const imageUrl = $(this).parent().siblings(".imageBox").children().attr("src");
-    cartItems = [...cartItems, { id: id, title: productDesc, price: 250.50,image:imageUrl }];
+    cartItems = [...cartItems, { id: id, title: productDesc,qty:1, price: 250.50,image:imageUrl }];
     localStorage.setItem('cartItems',JSON.stringify(cartItems));
     alert("Your meal is added to the cart");
    const cartProducts = JSON.parse(localStorage.getItem('cartItems'));
