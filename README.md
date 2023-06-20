@@ -16,3 +16,5 @@ Mini project to learn basic concepts of jQuery and Ajax concepts.
 * ("*") universal selector
 * ("element") element selector
 * ("parent child")
+## .animate()
+* Perform a custom animation of a set of CSS properties.
