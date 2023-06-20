@@ -2,7 +2,7 @@
   color: rgb(120, 36, 199);
 }
 .orderDetail div:nth-child(2) div {
-  background-color: rgb(120, 36, 199);
+    background-color: rgb(120, 36, 199);
 }
 .shippingContainer{
     width: 90%;
@@ -12,7 +12,7 @@
     margin-top: 20px;
 }
 #infoForm{
-    width: 70%;
+    width: 80%;
 }
 #infoForm .formContainer{
     width: 100%;
@@ -77,4 +77,7 @@
     border-radius: 5px;
     width: 120px;
     text-transform: uppercase;
+}
+.continueButton button:hover{
+    background-color: rgb(150, 74, 222);
 }
