@@ -31,3 +31,5 @@ Mini project to learn basic concepts of jQuery and Ajax concepts.
 * Get the children of each element in the set of matched elements, optionally filtered by a selector.
 ## .closest()
 * For each element in the set, get the first element that matches the selector by testing the element itself and traversing up through its ancestors in the DOM tree.
+## .contents()
+* Get the children of each element in the set of matched elements, including text and comment nodes.
