@@ -9,3 +9,5 @@ Mini project to learn basic concepts of jQuery and Ajax concepts.
 ## .addClass()
 * Adds the specified class(es) to each element in the set of matched elements.
 ## .after()
+* Insert content, specified by the parameter, after each element in the set of matched elements.
+## 
