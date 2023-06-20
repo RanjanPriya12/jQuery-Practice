@@ -10,4 +10,9 @@ Mini project to learn basic concepts of jQuery and Ajax concepts.
 * Adds the specified class(es) to each element in the set of matched elements.
 ## .after()
 * Insert content, specified by the parameter, after each element in the set of matched elements.
-## 
+## Selectors
+* ("#id_Name") id selector
+* (".class_Name") class selector
+* ("*") universal selector
+* ("element") element selector
+* ("parent child")
