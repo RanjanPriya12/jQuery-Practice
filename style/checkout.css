@@ -8,11 +8,12 @@
     width: 90%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 20px;
 }
 #infoForm{
-    width: 80%;
+    width: 70%;
 }
 #infoForm .formContainer{
     width: 100%;
@@ -55,6 +56,7 @@
     padding: 5px;
     border-radius: 5px;
     font-weight: bolder;
+    color: gray;
 }
 #infoForm .inputCheckbox{
     display: flex;
@@ -80,4 +82,22 @@
 }
 .continueButton button:hover{
     background-color: rgb(150, 74, 222);
+}
+.shippingContainer #checkoutDetail{
+    width: 28%;
+    padding: 20px;
+    background-color: rgb(196, 148, 243);
+    border-radius: 5px;
+}
+.shippingContainer #checkoutDetail div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.shippingContainer #checkoutDetail h3{
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    color: white;
 }
