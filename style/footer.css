@@ -1,0 +1,29 @@
+#footerSection {
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+#footerSection #pagesLinks {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+
+}
+#footerSection #pagesLinks div h3{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+#footerSection #pagesLinks div a{
+    color: white;
+    text-decoration: none;
+    padding-top: 45px;
+}

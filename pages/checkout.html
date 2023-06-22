@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../style/global.css" />
     <link rel="stylesheet" href="../style/cart.css" />
     <link rel="stylesheet" href="../style/checkout.css" />
+    <link rel="stylesheet" href="../style/footer.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   </head>
   <body>
@@ -109,8 +110,18 @@
             <div class="continueButton"><button>Continue</button></div>
           </form>
         </div>
-        <div id="checkoutDetail"></div>
+        <div id="checkoutDetail">
+          <h3>Order Summary</h3>
+          <div><span>Subtotal</span><span>1250.90 Rs.</span></div>
+          <div><span>Shipping Charge</span><span>125.45 Rs.</span></div>
+          <div><span>Delivery Charge</span><span>85.99 Rs.</span></div>
+          <div><span>GST</span><span>50.25 Rs.</span></div>
+          <hr>
+          <div><span>Total</span><span>1500.95 Rs</span></div>
+        </div>
       </div>
     </main>
+    <footer id="footerSection"></footer>
+    <script src="../Jquery/footer.js"></script>
   </body>
 </html>
